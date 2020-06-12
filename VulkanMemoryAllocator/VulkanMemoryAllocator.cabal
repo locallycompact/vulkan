@@ -59,6 +59,8 @@ library
       src/lib.cpp
   extra-libraries:
       stdc++
+  pkgconfig-depends:
+       vulkan-headers
   build-depends:
       base <4.15
     , bytestring
